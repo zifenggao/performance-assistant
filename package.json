@@ -1,0 +1,44 @@
+{
+  "name": "performance-assistant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "npm run build && npm run server",
+    "server": "webpack-dev-server --hot",
+    "build": "webpack -p",
+    "watch": "nodemon"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^17.0.3",
+    "antd": "^4.14.0",
+    "bizcharts": "^4.1.9",
+    "moment": "^2.29.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  },
+  "devDependencies": {
+    "babel-plugin-component": "^1.1.1",
+    "chalk": "^4.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.5.3",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "less": "^4.1.1",
+    "less-loader": "^7.3.0",
+    "nodemon": "^2.0.7",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^7.0.4",
+    "tsc": "^1.20150623.0",
+    "typescript": "^4.2.3",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
